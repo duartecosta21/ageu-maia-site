@@ -1,0 +1,354 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ageu Maia Arquitetura | Interiores de alto padrão em São Paulo</title><meta name="description" content="Projeto, gerenciamento de obra e marcenaria para apartamentos em Vila Nova Conceição, Moema e Brooklin, São Paulo."><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#030e24"><link rel="icon" type="image/png" href="/ageu-maia-site/v2/assets/favicon.png">
+<link rel="preload" href="/ageu-maia-site/v2/assets/bodoni-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/ageu-maia-site/v2/assets/jost-400.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" as="image" type="image/avif" imagesrcset="/ageu-maia-site/v2/assets/poster-480.avif 480w, /ageu-maia-site/v2/assets/poster-720.avif 720w" imagesizes="(min-width:860px) 42vw, 100vw" fetchpriority="high">
+<script>document.documentElement.className="js"</script><style>:root{--navy:#030e24;--navy2:#081b40;--navy3:#1d3c73;--mist:#aebbd6;--paper:#fbfaf8;--soft:#f1efea;--line:#dcd8cf;--ink:#030e24;--mut:#4b5a78;--serif:"Bodoni Moda","Bodoni 72",Didot,Georgia,serif;--sans:"Jost",system-ui,-apple-system,"Segoe UI",sans-serif;--g:clamp(20px,5vw,72px)}
+@font-face{font-family:"Bodoni Moda";src:url(/ageu-maia-site/v2/assets/bodoni-normal.woff2) format("woff2");font-weight:400 500;font-style:normal;font-display:swap}
+@font-face{font-family:"Bodoni Moda";src:url(/ageu-maia-site/v2/assets/bodoni-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:Jost;src:url(/ageu-maia-site/v2/assets/jost-400.woff2) format("woff2");font-weight:400 500;font-display:swap}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px;overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.14;letter-spacing:0;font-optical-sizing:auto}
+.wrap{padding-inline:var(--g);max-width:1480px;margin-inline:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--mist);outline-offset:3px}
+/* header */
+.hd{position:fixed;inset:0 0 auto;z-index:50;transition:background .4s,box-shadow .4s}
+.hd.on{background:rgba(3,14,36,.94);backdrop-filter:blur(10px);box-shadow:0 1px 0 rgba(174,187,214,.18)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;color:#fff}
+.mk{font-size:13px;letter-spacing:.28em;text-decoration:none;text-transform:uppercase;font-weight:500;white-space:nowrap}
+.nv{display:flex;gap:34px;align-items:center}
+.nv a{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;opacity:.88;position:relative}
+.nv a:not(.btn)::after{content:"";position:absolute;left:0;bottom:-6px;height:1px;width:100%;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .35s}
+.nv a:hover::after{transform:scaleX(1)}
+.mb{display:none;background:none;border:0;color:#fff;width:44px;height:44px;cursor:pointer}
+.mb i{display:block;width:24px;height:1.5px;background:currentColor;margin:6px auto;transition:transform .3s}
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:12px;padding:16px 28px;border:1px solid currentColor;text-decoration:none;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;background:none;color:inherit;font-family:var(--sans);transition:background .3s,color .3s,border-color .3s}
+.btn.fill{background:#fff;color:var(--navy);border-color:#fff}
+.btn.fill:hover{background:var(--mist);border-color:var(--mist)}
+.btn.line:hover{background:#fff;color:var(--navy)}
+.btn.dk{background:var(--navy);color:#fff;border-color:var(--navy)}
+.btn.dk:hover{background:var(--navy3);border-color:var(--navy3)}
+.ar{width:16px;height:10px;display:inline-block;flex:none;transition:transform .35s}.btn:hover .ar,.pc:hover .ar{transform:translateX(5px)}
+.ar svg,.ic svg{width:100%;height:100%;display:block}
+.hd .btn{padding:11px 20px;font-size:12px}
+/* hero */
+.hero{position:relative;background:var(--navy);color:#fff;min-height:100svh;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr);align-items:center;min-height:100svh;padding-block:120px 72px;position:static}
+.hero .tx{position:relative;z-index:2;width:min(100%,calc(100% - 41vw - 40px));will-change:transform,opacity}
+.rl{display:block;width:64px;height:1px;background:var(--mist);margin-bottom:26px;transform-origin:left}
+.eb{font-family:var(--serif);font-size:12.5px;letter-spacing:.34em;text-transform:uppercase;color:var(--mist);margin-bottom:30px;display:block}
+.hero h1{font-size:clamp(34px,3.75vw,62px);margin-bottom:30px;line-height:1.12}
+.hero h1 em{font-style:italic;font-weight:400;color:var(--mist)}
+.ln{display:block;overflow:hidden;padding-bottom:.14em;margin-bottom:-.06em}
+.ln>span{display:block}
+.hero p.lead{font-size:clamp(17px,1.25vw,19px);max-width:30em;color:#cdd7ec;margin-bottom:40px}
+.cta{display:flex;flex-wrap:wrap;gap:14px}
+.hv{position:absolute;z-index:1;top:96px;right:0;bottom:0;width:41vw;overflow:hidden;background:var(--navy2)}
+.hv .md{position:absolute;inset:-4% 0;will-change:transform}
+.hv .md img,.hv .md video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hv .md img{animation:kb 26s ease-in-out infinite alternate;transition:opacity 1s}
+.hv.pl .md img{opacity:0}
+.hv::after{content:"";position:absolute;inset:auto 0 0;height:160px;background:linear-gradient(0deg,rgba(3,14,36,.6),rgba(3,14,36,0));z-index:2;pointer-events:none}
+.hv .fm{position:absolute;z-index:3;left:28px;right:28px;top:28px;bottom:28px;width:calc(100% - 56px);height:calc(100% - 56px);overflow:visible;pointer-events:none}
+.hv .fm rect{fill:none;stroke:rgba(255,255,255,.55);stroke-width:1;stroke-dasharray:1 1;animation:dw 2.2s cubic-bezier(.6,0,.2,1) 1.3s both}
+.hv .tag{position:absolute;left:44px;bottom:44px;font-family:var(--serif);font-style:italic;font-size:14px;letter-spacing:.04em;color:#fff;z-index:4}
+@keyframes kb{from{transform:scale(1.02)}to{transform:scale(1.1) translate(-1.5%,-1%)}}
+@keyframes dw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes wp{from{clip-path:inset(100% 0 0 0)}to{clip-path:inset(0)}}
+@keyframes rlx{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.js .hv{animation:wp 1.6s cubic-bezier(.75,0,.15,1) .15s both}
+.js .rl{animation:rlx 1.3s cubic-bezier(.6,0,.2,1) .25s both}
+.sc{position:absolute;left:var(--g);bottom:24px;z-index:3;font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--mist);display:flex;align-items:center;gap:12px}
+.sc i{display:block;width:1px;height:34px;background:var(--mist);transform-origin:top;animation:dr 2.4s ease-in-out infinite}
+@keyframes dr{0%{transform:scaleY(0)}60%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+/* sections */
+section{padding-block:clamp(72px,10vw,150px)}
+h2{font-size:clamp(30px,3.25vw,52px);margin-bottom:22px;max-width:22em}
+.k{font-family:var(--serif);font-size:12.5px;letter-spacing:.34em;text-transform:uppercase;color:var(--navy3);margin-bottom:20px;display:flex;align-items:center;gap:16px}.k::before{content:"";width:34px;height:1px;background:currentColor;opacity:.6}
+.dk-s{background:var(--navy);color:#fff}
+.dk-s .k{color:var(--mist)}
+.sub{max-width:38em;color:var(--mut);font-size:clamp(17px,1.3vw,19px)}
+.dk-s .sub{color:#c9d3ea}
+/* bairros */
+.bz{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px;border-top:1px solid rgba(174,187,214,.3)}
+.bz div{padding:34px 24px 34px 0;position:relative}
+.bz h3{font-size:clamp(26px,2.8vw,44px)}
+.bz i{position:absolute;left:0;top:-1px;height:1px;width:100%;background:#fff;transform:scaleX(0);transform-origin:left;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.bz div.in i{transform:scaleX(1)}
+.bz span{display:block;margin-top:10px;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--mist)}
+/* projetos */
+.pj{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(18px,2.4vw,40px);margin-top:56px}
+.pc{grid-column:span 6;cursor:pointer;background:none;border:0;text-align:left;color:inherit;font:inherit}
+.pc.big{grid-column:span 12}
+.pc .im{position:relative;overflow:hidden;background:var(--soft);aspect-ratio:4/3}
+.pc.big .im{aspect-ratio:16/9}
+.pc .im img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1);will-change:transform}
+.pc:hover .im img{transform:scale(1.045)}
+.pc .im::after{content:"";position:absolute;inset:0;background:var(--navy);transform-origin:top;transition:transform 1.1s cubic-bezier(.7,0,.2,1)}
+.js .pc:not(.in) .im::after{transform:scaleY(1)}
+.pc.in .im::after{transform:scaleY(0)}
+html:not(.js) .pc .im::after{display:none}
+.pc h3{font-size:clamp(23px,2vw,32px);margin-top:20px}
+.pc p{color:var(--mut);font-size:15px;margin-top:6px}
+.pc .more{display:inline-flex;align-items:center;gap:10px;margin-top:12px;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;border-bottom:1px solid var(--navy);padding-bottom:3px}
+.bd{position:absolute;right:12px;top:12px;z-index:2;background:rgba(3,14,36,.78);color:#fff;font-size:12px;letter-spacing:.08em;padding:5px 10px}
+/* serviços */
+.sv{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(24px,4vw,64px);margin-top:56px}
+.sv div{border-top:1px solid var(--line);padding-top:26px}
+.sv h3{font-size:clamp(23px,1.9vw,30px);margin-bottom:14px}
+.sv p{color:var(--mut)}
+.extra{margin-top:48px;color:var(--mut);max-width:44em}
+/* processo */
+.pr{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,6vw,110px)}
+.st{position:relative;padding-left:44px;display:grid;gap:44px}
+.st::before,.st::after{content:"";position:absolute;left:8px;top:8px;width:1px;bottom:8px;background:rgba(174,187,214,.3)}
+.st::after{background:#fff;transform-origin:top;transform:scaleY(var(--p,1))}
+.st div{position:relative}
+.st div::before{content:"";position:absolute;left:-41px;top:9px;width:11px;height:11px;border-radius:50%;background:var(--navy);border:1px solid #fff}
+.st h3{font-size:clamp(22px,1.8vw,28px);margin-bottom:8px}
+.st p{color:#c9d3ea}
+/* sobre */
+.ab{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,110px);align-items:start}
+.ab blockquote{font-family:var(--serif);font-size:clamp(24px,2.4vw,36px);line-height:1.3;font-weight:400;font-style:italic}
+.ab p+p{margin-top:18px}
+/* contato */
+.ct{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(30px,6vw,110px)}
+.ci{margin-top:34px;display:grid;gap:12px;color:#d6def0}
+.ci a{text-underline-offset:4px}
+form{display:grid;gap:22px}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+label{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--mist);display:grid;gap:8px}
+input,select,textarea{font:inherit;font-size:17px;color:#fff;background:rgba(255,255,255,.07);border:1px solid rgba(174,187,214,.45);padding:14px 16px;border-radius:0;width:100%;letter-spacing:0;text-transform:none}
+select option{color:#000}
+textarea{min-height:110px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--mist);outline-offset:1px;border-color:#fff}
+.nt{font-size:14px;color:#aebbd6}
+footer{background:#020a1a;color:#aebbd6;padding-block:44px;font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px 40px;justify-content:space-between;align-items:center}
+footer .so{display:flex;gap:18px}
+.ic{width:24px;height:24px;display:block}
+.wa{transform:translateY(160%);transition:transform .4s;position:fixed;z-index:40;left:16px;right:16px;bottom:14px;display:none}
+.wa.s{transform:none}
+.wa .btn{width:100%;justify-content:center;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+/* dialog */
+dialog{border:0;background:rgba(6,12,28,.97);color:#fff;width:100vw;height:100dvh;max-width:none;max-height:none;padding:0}
+dialog[open]{display:grid;grid-template-rows:1fr auto;animation:fi .35s}
+dialog::backdrop{background:#060c1c}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+.lb{position:relative;display:grid;place-items:center;padding:56px 70px 8px;min-height:0}
+.lb img{max-width:100%;max-height:100%;object-fit:contain;animation:zi .45s cubic-bezier(.2,.7,.2,1)}
+@keyframes zi{from{opacity:.0;transform:scale(.97)}to{opacity:1;transform:none}}
+.lb button{position:absolute;background:none;border:1px solid rgba(255,255,255,.4);color:#fff;width:48px;height:48px;cursor:pointer;display:grid;place-items:center}
+.lb button:hover{background:#fff;color:var(--navy)}
+.lb .x{top:12px;right:12px}.lb .pv{left:12px;top:50%}.lb .nx{right:12px;top:50%}
+.lb button svg{width:18px;height:18px}
+.cp{padding:12px 24px 22px;text-align:center;font-size:15px;color:#c9d3ea}
+.cp b{font-family:var(--serif);font-weight:400;font-size:22px;color:#fff;display:block}
+/* reveal */
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+.js .ln>span{transform:translateY(105%);transition:transform 1.1s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.js.ld .ln>span{transform:none}
+.js .hf{opacity:0;transition:opacity .8s .5s}
+.js.ld .hf{opacity:1}
+/* visita */
+.vs .hero{min-height:0}
+.vp{padding-block:clamp(56px,8vw,110px);border-top:1px solid var(--line)}
+.vp .meta{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(24px,5vw,80px);margin-bottom:40px}
+.vp ul{list-style:none;display:grid;gap:8px;color:var(--mut)}
+.vg{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.vg figure:first-child{grid-column:1/-1}
+.vg img{width:100%;height:auto}
+.vg figcaption{font-size:14px;color:var(--mut);margin-top:6px}
+@media(max-width:1000px){
+.sv,.pr,.ab,.ct,.vp .meta{grid-template-columns:1fr}
+.bz{grid-template-columns:1fr}
+.bz div{border-top:0;padding:22px 0}
+.bz i{display:none}
+.bz div+div{border-top:1px solid rgba(174,187,214,.3)}
+.pc{grid-column:span 12}
+.pc.big .im,.pc .im{aspect-ratio:4/3}
+}
+@media(max-width:860px){
+.hero .wrap{display:block;min-height:100svh;padding-block:calc(44svh + 8px) 40px}
+.hero .tx{width:100%}
+.hv{inset:0 0 auto 0;width:100%;height:58svh;bottom:auto;top:0}
+.hv::after{height:58%;background:linear-gradient(0deg,#030e24 4%,rgba(3,14,36,.82) 40%,rgba(3,14,36,0))}
+.hv .fm{left:16px;right:16px;top:88px;bottom:auto;width:calc(100% - 32px);height:calc(30svh)}
+.hv .tag{display:none}
+.hero h1{font-size:clamp(29px,8.2vw,40px);margin-bottom:22px}
+.eb{font-size:11px;letter-spacing:.26em;margin-bottom:20px}
+.rl{margin-bottom:20px}
+.hero p.lead{font-size:16.5px;margin-bottom:28px}
+.cta{flex-wrap:nowrap;gap:10px}
+.cta .btn{padding:15px 14px;font-size:11px;letter-spacing:.1em;justify-content:center;white-space:nowrap}.cta .btn .ar{display:none}
+.cta .btn.fill{flex:1}
+.sc{display:none}
+.nv{position:fixed;inset:72px 0 auto;background:var(--navy);flex-direction:column;align-items:stretch;gap:0;padding:8px var(--g) 24px;transform:translateY(-130%);visibility:hidden;transition:transform .45s cubic-bezier(.2,.7,.2,1),visibility 0s .45s;z-index:-1}
+.nv.o{transform:none;visibility:visible;transition-delay:0s}
+.nv a{padding:16px 0;border-bottom:1px solid rgba(174,187,214,.2);font-size:14px}
+.nv .btn{margin-top:16px;justify-content:center}
+.mb{display:block}
+.hd.mo{background:var(--navy)}
+.fr{grid-template-columns:1fr}
+.lb{padding:56px 8px 4px}
+.lb .pv,.lb .nx{top:auto;bottom:6px}
+.wa{display:block}
+footer{padding-bottom:96px}
+.vg{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+html{scroll-behavior:auto}
+*,*::before,*::after{animation:none!important;transition:none!important}
+.js .rv,.js .hf{opacity:1;transform:none}
+.js .ln>span{transform:none}
+.js .pc .im::after{display:none}
+.js .hv,.js .rl{animation:none!important;clip-path:none!important;transform:none!important}
+.hv .fm rect{animation:none!important;stroke-dashoffset:0!important}
+.hero .tx,.hv .md{transform:none!important;translate:none!important;opacity:1!important}
+.bz i{transform:scaleX(1)}
+.st::after{transform:none}
+.js .rv li{opacity:1!important;transform:none!important}
+}
+
+.mk{display:block;line-height:0}.mk img{display:block;height:40px;width:auto}
+footer .fl{display:flex;align-items:center;gap:20px;flex-wrap:wrap}footer .fl img{height:40px;width:auto;opacity:.92}
+.es{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:clamp(24px,4vw,64px);margin-top:56px}
+.es>div{border-top:1px solid var(--line);padding-top:26px}
+.es h3{font-size:clamp(22px,1.8vw,28px);margin-bottom:18px}
+.dl,.bl{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.dl li{color:var(--mut);font-size:15.5px;line-height:1.55}.dl b{display:block;color:var(--navy);font-weight:500;font-size:16.5px}
+.bl li{color:var(--mut);font-size:15.5px;line-height:1.55;padding-left:20px;position:relative}
+.bl li::before{content:"";position:absolute;left:0;top:.72em;width:9px;height:1px;background:var(--navy)}
+.bl.no li::before{background:var(--mut)}
+.bl.nm{counter-reset:n}.bl.nm li{counter-increment:n;padding-left:32px}.bl.nm li::before{content:counter(n,decimal-leading-zero);width:auto;height:auto;background:none;top:.05em;font-size:13px;letter-spacing:.1em;color:var(--navy3)}
+.js .es li{transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .rv:not(.in) li{opacity:0;transform:translateX(-10px)}
+.js .rv.in li{opacity:1;transform:none}
+.js .rv.in li:nth-child(2){transition-delay:.06s}.js .rv.in li:nth-child(3){transition-delay:.12s}.js .rv.in li:nth-child(4){transition-delay:.18s}.js .rv.in li:nth-child(5){transition-delay:.24s}.js .rv.in li:nth-child(6){transition-delay:.3s}.js .rv.in li:nth-child(7){transition-delay:.36s}
+@media(max-width:1000px){.es{grid-template-columns:1fr}.mk img,footer .fl img{height:34px}}
+</style></head>
+<body id="topo"><header class="hd"><div class="wrap"><a class="mk" href="/ageu-maia-site/v2/#topo" aria-label="Ageu Maia Arquitetura, início"><img src="/ageu-maia-site/v2/assets/logo-ageu-h.webp" srcset="/ageu-maia-site/v2/assets/logo-ageu-h.webp 480w, /ageu-maia-site/v2/assets/logo-ageu-h-2x.webp 960w" sizes="170px" width="480" height="121" alt="Ageu Maia Arquitetura"></a>
+<button class="mb" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
+<nav class="nv" aria-label="Principal"><a href="/ageu-maia-site/v2/#projetos">Projetos</a><a href="/ageu-maia-site/v2/#bairros">Bairros</a><a href="/ageu-maia-site/v2/#servicos">Serviços</a><a href="/ageu-maia-site/v2/#processo">Como começa</a><a href="/ageu-maia-site/v2/#marcenaria">Marcenaria</a><a href="/ageu-maia-site/v2/#sobre">Sobre</a><a class="btn line" href="#" data-wa="Olá, Ageu! Vi seu site e gostaria de conversar sobre um projeto.">WhatsApp</a></nav></div></header>
+<main><section class="hero" style="padding:0"><div class="wrap"><div class="tx"><span class="rl" aria-hidden="true"></span><span class="eb hf">Ageu Maia Arquitetura · São Paulo</span>
+<h1 aria-label="Interiores de alto padrão em Vila Nova Conceição, Moema e Brooklin."><span class="ln" aria-hidden="true"><span style="--d:.5s">Interiores de alto padrão</span></span><span class="ln" aria-hidden="true"><span style="--d:.62s">em <em>Vila Nova Conceição</em>,</span></span><span class="ln" aria-hidden="true"><span style="--d:.74s">Moema e Brooklin.</span></span></h1>
+<p class="lead">Projeto, gerenciamento de obra e marcenaria para apartamentos em São Paulo, conduzidos por um só escritório.</p>
+<div class="cta hf"><a class="btn fill" href="#" data-wa="Olá, Ageu! Vi seu site e gostaria de conversar sobre um projeto.">Conversar no WhatsApp <span class="ar"><svg viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></a><a class="btn line" href="#projetos">Ver projetos</a></div></div>
+<div class="hv"><div class="md"><picture><source type="image/avif" srcset="/ageu-maia-site/v2/assets/poster-480.avif 480w, /ageu-maia-site/v2/assets/poster-720.avif 720w" sizes="(min-width:860px) 42vw, 100vw"><source type="image/webp" srcset="/ageu-maia-site/v2/assets/poster-480.webp 480w, /ageu-maia-site/v2/assets/poster-720.webp 720w" sizes="(min-width:860px) 42vw, 100vw"><img src="/ageu-maia-site/v2/assets/poster-720.webp" width="720" height="1270" alt="Interior de apartamento de alto padrão, cozinha com ilha e iluminação linear (render do projeto)" fetchpriority="high" class=""></picture><video muted loop playsinline preload="none" poster="" data-src="/ageu-maia-site/v2/assets/hero.mp4" aria-hidden="true" tabindex="-1"></video></div><svg class="fm" aria-hidden="true" preserveAspectRatio="none"><rect x="0" y="0" width="100%" height="100%" pathLength="1"/></svg><span class="tag">Render do projeto</span></div></div><div class="sc hf"><i></i>Role</div></section>
+
+<section id="bairros" class="dk-s"><div class="wrap"><span class="k rv">Onde atuamos</span><h2 class="rv">Arquitetura para quem mora nos melhores bairros de São Paulo.</h2>
+<p class="sub rv">Atuação concentrada na capital. O escritório fica próximo a esses bairros, o que facilita visitas e o acompanhamento de obra.</p>
+<div class="bz"><div><i></i><h3>Vila Nova Conceição</h3><span>São Paulo, SP</span></div><div><i></i><h3>Moema</h3><span>São Paulo, SP</span></div><div><i></i><h3>Brooklin</h3><span>São Paulo, SP</span></div></div></div></section>
+
+<section id="projetos"><div class="wrap"><span class="k rv">Projetos</span><h2 class="rv">Obras entregues e projetos em andamento.</h2>
+<p class="sub rv">Toque em um projeto para ver as imagens.</p>
+<div class="pj"><button class="pc big rv" aria-label="Ver imagens: Apartamento com sala integrada e cozinha em ilha"><div class="im"><picture><source type="image/avif" srcset="/ageu-maia-site/v2/assets/a0-480.avif 480w, /ageu-maia-site/v2/assets/a0-738.avif 738w" sizes="(min-width:1000px) 88vw, 100vw"><source type="image/webp" srcset="/ageu-maia-site/v2/assets/a0-480.webp 480w, /ageu-maia-site/v2/assets/a0-738.webp 738w" sizes="(min-width:1000px) 88vw, 100vw"><img src="/ageu-maia-site/v2/assets/a0-738.webp" width="738" height="715" alt="Apartamento com sala integrada e cozinha em ilha" loading="lazy" decoding="async" class=""></picture><span class="bd">Foto e renders</span></div><h3>Apartamento com sala integrada e cozinha em ilha</h3><p>Residencial · São Paulo. Sala, jantar e cozinha em um único ambiente, varanda envidraçada e iluminação linear. Foto da obra e renders do projeto.</p><span class="more">Ver imagens <span class="ar"><svg viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></span></button><button class="pc rv" aria-label="Ver imagens: Escritório de advocacia"><div class="im"><picture><source type="image/avif" srcset="/ageu-maia-site/v2/assets/b0-480.avif 480w, /ageu-maia-site/v2/assets/b0-800.avif 800w, /ageu-maia-site/v2/assets/b0-1200.avif 1200w" sizes="(min-width:1000px) 44vw, 100vw"><source type="image/webp" srcset="/ageu-maia-site/v2/assets/b0-480.webp 480w, /ageu-maia-site/v2/assets/b0-800.webp 800w, /ageu-maia-site/v2/assets/b0-1200.webp 1200w" sizes="(min-width:1000px) 44vw, 100vw"><img src="/ageu-maia-site/v2/assets/b0-1200.webp" width="1200" height="1200" alt="Escritório de advocacia" loading="lazy" decoding="async" class=""></picture><span class="bd">Obra entregue</span></div><h3>Escritório de advocacia</h3><p>Corporativo · Vila Olímpia. Recepção, sala de reuniões, copa e lavabo, com revestimento em pedra, ripado de madeira e iluminação embutida.</p><span class="more">Ver imagens <span class="ar"><svg viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></span></button><button class="pc rv" aria-label="Ver imagens: Apartamento reformado"><div class="im"><picture><source type="image/avif" srcset="/ageu-maia-site/v2/assets/c0-480.avif 480w, /ageu-maia-site/v2/assets/c0-800.avif 800w, /ageu-maia-site/v2/assets/c0-1200.avif 1200w" sizes="(min-width:1000px) 44vw, 100vw"><source type="image/webp" srcset="/ageu-maia-site/v2/assets/c0-480.webp 480w, /ageu-maia-site/v2/assets/c0-800.webp 800w, /ageu-maia-site/v2/assets/c0-1200.webp 1200w" sizes="(min-width:1000px) 44vw, 100vw"><img src="/ageu-maia-site/v2/assets/c0-1200.webp" width="1200" height="1200" alt="Apartamento reformado" loading="lazy" decoding="async" class=""></picture><span class="bd">Obra entregue</span></div><h3>Apartamento reformado</h3><p>Residencial · São Paulo. Sala de estar e jantar, banheiro e quarto da reforma completa de um apartamento.</p><span class="more">Ver imagens <span class="ar"><svg viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></span></button></div>
+<p class="extra rv">Também no portfólio do escritório: studios Cyrela For You Perdizes (24 m²) e Voxx Itaim (22 m²), apartamento no Hotel Bristol The Time (Berrini), apartamento de alto padrão no O Parque (197 m²) e reforma no Condomínio The Gift (210 m²).</p></div></section>
+
+<section id="servicos" style="background:var(--soft)"><div class="wrap"><span class="k rv">Serviços</span><h2 class="rv">Do projeto à obra, com um único responsável.</h2>
+<div class="sv"><div class="rv"><h3>Projeto de interiores</h3><p>Do levantamento e estudo preliminar aos projetos executivos de layout, marcenaria, forro e iluminação, elétrica, hidráulica e revestimentos.</p></div>
+<div class="rv" style="--d:.12s"><h3>Gerenciamento de obra</h3><p>Supervisão da execução, do planejamento inicial à entrega final, com relatórios periódicos e conferência das medidas antes da liberação dos pagamentos.</p></div>
+<div class="rv" style="--d:.24s"><h3>Marcenaria sob medida</h3><p>O braço de marcenaria do escritório integra projeto e execução, do estudo técnico à instalação e à assistência pós-entrega.</p></div></div>
+<p class="extra rv">Também atendemos escritórios e espaços comerciais, e projetamos studios para investimento e locação por temporada.</p></div></section>
+
+<section id="escopo"><div class="wrap"><span class="k rv">Escopo</span><h2 class="rv">Cada proposta diz o que está dentro e o que está fora.</h2>
+<div class="es"><div class="rv"><h3>Entregas do projeto</h3><ul class="dl">
+<li><b>Levantamento e estudo preliminar</b>Medição do imóvel, estudo de layout inicial, conceito estético e referências visuais.</li>
+<li><b>Anteprojeto</b>Planta de layout aprovado, definição de acabamentos e paleta de cores, imagens 3D ilustrativas.</li>
+<li><b>Projeto executivo</b>Layout com mobiliário e circulações cotadas, marcenaria, forro e iluminação, elétrica e automação, hidráulica e revestimentos.</li>
+<li><b>Detalhes construtivos</b>Cortes e detalhamentos específicos para execução.</li>
+<li><b>Memorial descritivo</b>Lista completa de materiais, revestimentos, metais, louças e iluminação.</li>
+<li><b>Planilha de mobiliário e decoração</b>Móveis soltos, objetos e eletrodomésticos sugeridos.</li>
+<li><b>Documentos finais</b>Caderno de projeto em PDF, arquivos DWG e cronograma físico-financeiro preliminar.</li></ul></div>
+<div class="rv" style="--d:.12s"><h3>Gerenciamento da obra</h3><ul class="bl">
+<li>Supervisão integral da execução, do planejamento inicial à entrega final.</li>
+<li>Monitoramento diário das atividades no local, para qualidade, prazos e conformidade com o projeto.</li>
+<li>Coordenação das equipes e fornecedores: mão de obra, marcenaria, vidraçaria, instalações e outros.</li>
+<li>Suporte na compra de materiais e verificação das entregas recebidas.</li>
+<li>Relatórios periódicos de progresso, com registro fotográfico e pendências.</li>
+<li>Confirmação das medidas e serviços realizados antes da liberação dos pagamentos.</li></ul></div>
+<div class="rv" style="--d:.24s"><h3>Não está incluso</h3><ul class="bl no">
+<li>Transporte, armazenamento e descarte de entulho (caçambas, fretes, carreto).</li>
+<li>Engenharia especializada (estrutural, elétrica, hidráulica, gás, climatização), quando houver necessidade de projeto ou laudo específico.</li>
+<li>Taxas, licenças e aprovações na Prefeitura ou em órgãos competentes.</li>
+<li>Acompanhamento fora do expediente padrão: madrugada, fins de semana e feriados.</li>
+<li>Móveis soltos, eletrodomésticos, decoração e objetos pessoais.</li>
+<li>Alterações de escopo pedidas após a aprovação inicial, orçadas à parte.</li>
+<li>Limpeza final da obra.</li></ul></div></div></div></section>
+
+<section id="processo" class="dk-s"><div class="wrap pr"><div><span class="k rv">Como começa</span><h2 class="rv">Uma conversa e uma proposta clara.</h2><p class="sub rv">Proposta com escopo claro desde o início, para que não haja expectativa solta.</p></div>
+<div class="st"><div class="rv"><h3>Conversa inicial</h3><p>Você conta sobre o imóvel, o bairro e o que espera do projeto.</p></div>
+<div class="rv"><h3>Levantamento e estudo preliminar</h3><p>Medição do imóvel, estudo de layout inicial, conceito estético e referências visuais.</p></div>
+<div class="rv"><h3>Anteprojeto e projeto executivo</h3><p>Layout aprovado, acabamentos, paleta e imagens 3D, depois os projetos executivos e o memorial descritivo.</p></div>
+<div class="rv"><h3>Gerenciamento e execução</h3><p>Supervisão da obra e da marcenaria até a entrega final.</p></div></div></div></section>
+
+<section id="marcenaria" style="background:var(--soft)"><div class="wrap"><span class="k rv">Marcenaria</span><h2 class="rv">Projeto e execução da marcenaria no mesmo escritório.</h2>
+<p class="sub rv">Braço especializado em marcenaria do escritório de arquitetura, criado para integrar projeto e execução com mais precisão, controle e excelência em cada etapa. Qualidade, prazo e custo conciliados, com marcenaria sob medida desde 2025.</p>
+<div class="es"><div class="rv"><h3>Fases do projeto</h3><ol class="bl nm"><li>Levantamento técnico e alinhamento de expectativas.</li><li>Desenvolvimento e validação do projeto executivo.</li><li>Produção em ambiente controlado.</li><li>Planejamento e execução da instalação.</li><li>Entrega final com acompanhamento.</li></ol></div>
+<div class="rv" style="--d:.12s"><h3>Incluso no orçamento</h3><ul class="bl"><li>Estudo técnico e direcionamento do projeto.</li><li>Caderno executivo digital.</li><li>Fabricação 4.0.</li><li>Transporte e instalação especializada.</li><li>Garantia estrutural e assistência pós-entrega.</li></ul></div>
+<div class="rv" style="--d:.24s"><h3>Materiais</h3><ul class="bl"><li>MDFs de 15 mm nas estruturas internas, 18 mm nos tamponamentos e 6 mm nos fundos, com revestimento dos dois lados para evitar mofo e mau cheiro.</li><li>MDF Ultra nas áreas molhadas.</li><li>Corrediças ocultas e dobradiças com amortecimento, para fechamento suave e menos ferragem aparente.</li><li>Pistões a gás e puxadores variados.</li></ul></div></div></div></section>
+
+<section id="sobre"><div class="wrap ab"><blockquote class="rv">Todo projeto começa com uma ideia. Transformamos essa ideia em espaço, valor e experiência.</blockquote>
+<div class="rv"><span class="k">Sobre o escritório</span><p>Fundado pelo arquiteto Ageu Maia em 2019, o escritório é reconhecido pela arquitetura de alto padrão e pelo compromisso com a satisfação dos clientes. Oferece soluções completas, unindo arquitetura, engenharia e gestão, com atendimento exclusivo e transparência.</p><p>Experiência em projetos residenciais e corporativos em empreendimentos como Nova York Penthouses (Brooklin), AESABESP (Paraíso) e Platinum Tower (Vila Olímpia). Com mais de 10 anos de experiência de mercado, tem cartela de fornecedores exclusiva e diversos projetos construídos.</p></div></div></section>
+
+<section id="contato" class="dk-s"><div class="wrap ct"><div><span class="k rv">Contato</span><h2 class="rv">Vamos conversar sobre o seu projeto.</h2><p class="sub rv">Conte o básico e abrimos a conversa no WhatsApp com a mensagem pronta. Você revisa antes de enviar.</p>
+<div class="ci rv"><a href="#" data-wa="Olá, Ageu! Vi seu site e gostaria de conversar sobre um projeto.">WhatsApp: (11) 98128-3318</a><a href="mailto:contato@ageumaiaarquitetura.com">contato@ageumaiaarquitetura.com</a><span>São Paulo, SP</span></div></div>
+<form class="rv" novalidate><div class="fr"><label>Nome<input name="nome" autocomplete="name"></label><label>Tipo de imóvel<select name="tipo"><option>Apartamento</option><option>Casa</option><option>Studio para investimento</option><option>Escritório ou espaço comercial</option></select></label></div>
+<label>Bairro do imóvel<select name="bairro"><option value="">Selecione</option><option>Vila Nova Conceição</option><option>Moema</option><option>Brooklin</option><option>Outro bairro de São Paulo</option></select></label>
+<label>Mensagem (opcional)<textarea name="msg"></textarea></label><button class="btn fill" type="submit">Abrir conversa no WhatsApp <span class="ar"><svg viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></button><p class="nt">Nada é enviado por este formulário. Ele só prepara a mensagem no WhatsApp.</p></form></div></section></main>
+<footer><div class="wrap"><div class="fl"><img src="/ageu-maia-site/v2/assets/logo-ageu-h.webp" width="480" height="121" alt="Ageu Maia Arquitetura" loading="lazy"><span>São Paulo, SP</span></div><div class="so"><a class="ic" href="https://www.instagram.com/ageumaiaarquitetura/" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></svg></a><a class="ic" href="#" data-wa="Olá, Ageu! Vi seu site e gostaria de conversar sobre um projeto." aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3.5 20.5l1.3-4.4A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-.9.8c-.9-.4-1.8-1.3-2.2-2.2l.8-.9-1-2z"/></svg></a></div></div></footer>
+<div class="wa"><a class="btn fill" href="#" data-wa="Olá, Ageu! Vi seu site e gostaria de conversar sobre um projeto.">Conversar no WhatsApp</a></div><dialog aria-label="Galeria de imagens"><div class="lb"><button class="x" aria-label="Fechar"><svg viewBox="0 0 18 18" stroke="currentColor" stroke-width="1.4" fill="none"><path d="M2 2l14 14M16 2L2 16"/></svg></button><button class="pv" aria-label="Imagem anterior"><svg viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.3" style="transform:scaleX(-1)"><path d="M0 5h15M11 1l4 4-4 4"/></svg></button><button class="nx" aria-label="Próxima imagem"><svg viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M0 5h15M11 1l4 4-4 4"/></svg></button><img alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></div><div class="cp" aria-live="polite"></div></dialog><script>window.PJ=[{"t": "Apartamento com sala integrada e cozinha em ilha", "g": [{"s": "/ageu-maia-site/v2/assets/a0-738.webp", "c": "Foto do ambiente executado"}, {"s": "/ageu-maia-site/v2/assets/a1-720.webp", "c": "Render do projeto: estar e jantar"}, {"s": "/ageu-maia-site/v2/assets/a2-720.webp", "c": "Render do projeto: ilha e bancada"}, {"s": "/ageu-maia-site/v2/assets/a3-720.webp", "c": "Render do projeto: jantar"}, {"s": "/ageu-maia-site/v2/assets/a4-720.webp", "c": "Render do projeto: cozinha"}]}, {"t": "Escritório de advocacia", "g": [{"s": "/ageu-maia-site/v2/assets/b0-1200.webp", "c": "Recepção"}, {"s": "/ageu-maia-site/v2/assets/b1-1200.webp", "c": "Circulação e recepção"}, {"s": "/ageu-maia-site/v2/assets/b2-1200.webp", "c": "Sala de reuniões"}, {"s": "/ageu-maia-site/v2/assets/b3-1200.webp", "c": "Lavabo"}, {"s": "/ageu-maia-site/v2/assets/b4-1200.webp", "c": "Copa"}, {"s": "/ageu-maia-site/v2/assets/b5-1200.webp", "c": "Sala de apoio"}]}, {"t": "Apartamento reformado", "g": [{"s": "/ageu-maia-site/v2/assets/c0-1200.webp", "c": "Sala de estar"}, {"s": "/ageu-maia-site/v2/assets/c1-1200.webp", "c": "Sala de jantar"}, {"s": "/ageu-maia-site/v2/assets/c2-1200.webp", "c": "Banheiro"}, {"s": "/ageu-maia-site/v2/assets/c3-1200.webp", "c": "Quarto"}]}]</script><script>(function(){
+var d=document,de=d.documentElement,rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+var $=function(s,c){return (c||d).querySelector(s)},$$=function(s,c){return Array.prototype.slice.call((c||d).querySelectorAll(s))};
+var WA='5511981283318';
+function wa(t){return 'https://wa.me/'+WA+'?text='+encodeURIComponent(t)}
+requestAnimationFrame(function(){requestAnimationFrame(function(){de.classList.add('ld')})});
+var hd=$('.hd');var wb=$('.wa');function hs(){hd.classList.toggle('on',scrollY>30);if(wb)wb.classList.toggle('s',scrollY>innerHeight*.7)}hs();addEventListener('scroll',hs,{passive:true});
+var mb=$('.mb'),nv=$('.nv');
+if(mb){mb.addEventListener('click',function(){var o=nv.classList.toggle('o');mb.setAttribute('aria-expanded',o);hd.classList.toggle('mo',o)});
+$$('a',nv).forEach(function(a){a.addEventListener('click',function(){nv.classList.remove('o');mb.setAttribute('aria-expanded','false');hd.classList.remove('mo')})})}
+/* reveals */
+var els=$$('.rv,.pc,.bz div');
+if('IntersectionObserver' in window&&!rm){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});els.forEach(function(e){io.observe(e)})}else{els.forEach(function(e){e.classList.add('in')})}
+/* hero video */
+var hv=$('.hv video');
+if(hv&&!rm){var sd=navigator.connection&&navigator.connection.saveData;
+ var go=function(){if(sd)return;hv.src=hv.getAttribute('data-src');hv.addEventListener('playing',function(){hv.parentNode.classList.add('pl')},{once:true});var p=hv.play();if(p&&p.catch)p.catch(function(){})};
+ if(d.readyState==='complete')setTimeout(go,300);else addEventListener('load',function(){setTimeout(go,300)});
+ d.addEventListener('visibilitychange',function(){if(d.hidden)hv.pause();else if(hv.src&&hv.parentNode.classList.contains('pl'))hv.play().catch(function(){})})}
+/* parallax + process progress */
+var big=$$('.pc.big .im img'),st=$('.st'),wide=matchMedia('(min-width:861px)').matches,tk=false,hmd=$('.hv .md'),htx=$('.hero .tx');
+function tick(){tk=false;var h=innerHeight;
+ if(!rm&&hmd&&scrollY<h*1.1){var q=Math.min(1,scrollY/h);hmd.style.translate='0 '+(q*(wide?70:36)).toFixed(1)+'px';if(htx&&wide){htx.style.translate='0 '+(q*-46).toFixed(1)+'px';htx.style.opacity=(1-q*.75).toFixed(2)}}
+ if(wide&&!rm)big.forEach(function(im){var r=im.parentNode.getBoundingClientRect();if(r.bottom<0||r.top>h)return;var p=(r.top+r.height/2-h/2)/h;im.style.translate='0 '+(p*-34).toFixed(1)+'px'});
+ if(st&&!rm){var r=st.getBoundingClientRect();var p=Math.min(1,Math.max(0,(h*.7-r.top)/r.height));st.style.setProperty('--p',p.toFixed(3))}}
+if(!rm){if(wide)big.forEach(function(im){im.style.scale='1.1'});addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(tick)}},{passive:true});tick()}
+/* lightbox */
+var P=window.PJ||[],dl=$('dialog'),cur=0,gi=0,tr=null;
+if(dl&&P.length){var im=$('.lb img',dl),cp=$('.cp',dl);
+ function show(){var p=P[cur],g=p.g[gi];im.src=g.s;im.alt=p.t+', imagem '+(gi+1)+' de '+p.g.length;cp.innerHTML='';var b=d.createElement('b');b.textContent=p.t;cp.appendChild(b);cp.appendChild(d.createTextNode(g.c+' ('+(gi+1)+'/ageu-maia-site/v2/'+p.g.length+')'));var s=im.cloneNode();im.replaceWith(s);im=s}
+ function open(i,el){cur=i;gi=0;tr=el;show();dl.showModal();$('.x',dl).focus()}
+ function mv(n){gi=(gi+n+P[cur].g.length)%P[cur].g.length;show()}
+ $$('.pc').forEach(function(c,i){c.addEventListener('click',function(){open(i,c)})});
+ $('.pv',dl).addEventListener('click',function(){mv(-1)});$('.nx',dl).addEventListener('click',function(){mv(1)});
+ $('.x',dl).addEventListener('click',function(){dl.close()});
+ dl.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')mv(-1);if(e.key==='ArrowRight')mv(1)});
+ dl.addEventListener('click',function(e){if(e.target===dl)dl.close()});
+ dl.addEventListener('close',function(){if(tr)tr.focus()});
+ var sx=0;dl.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});dl.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50)mv(dx<0?1:-1)},{passive:true})}
+/* whatsapp */
+$$('[data-wa]').forEach(function(a){a.href=wa(a.getAttribute('data-wa'))});
+var f=$('form');
+if(f)f.addEventListener('submit',function(e){e.preventDefault();var v=function(n){return f.elements[n].value.trim()};
+ var t='Olá, Ageu! Vi seu site e gostaria de conversar sobre um projeto.';
+ if(v('nome'))t+='\nMeu nome: '+v('nome')+'.';
+ t+='\nImóvel: '+v('tipo')+(v('bairro')?', '+v('bairro'):'')+'.';
+ if(v('msg'))t+='\n'+v('msg');
+ window.open(wa(t),'_blank','noopener')});
+})();
+</script></body></html>
