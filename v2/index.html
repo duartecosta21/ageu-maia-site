@@ -231,6 +231,26 @@ footer .fl{display:flex;align-items:center;gap:20px;flex-wrap:wrap}footer .fl im
 .js .rv.in li{opacity:1;transform:none}
 .js .rv.in li:nth-child(2){transition-delay:.06s}.js .rv.in li:nth-child(3){transition-delay:.12s}.js .rv.in li:nth-child(4){transition-delay:.18s}.js .rv.in li:nth-child(5){transition-delay:.24s}.js .rv.in li:nth-child(6){transition-delay:.3s}.js .rv.in li:nth-child(7){transition-delay:.36s}
 @media(max-width:1000px){.es{grid-template-columns:1fr}.mk img,footer .fl img{height:34px}}
+/* sobre com retrato 30/10: foto abre de baixo pra cima, moldura se desenha, leve parallax */
+.ab2{grid-template-columns:minmax(0,.85fr) minmax(0,1fr);align-items:center}
+.pt{position:relative;margin:0}
+.pt .pi{overflow:hidden;aspect-ratio:4/5;background:var(--navy2)}
+.pt .pi img{width:100%;height:100%;object-fit:cover;object-position:18% 50%;transform:scale(1.12);transition:transform 1.8s cubic-bezier(.2,.7,.2,1)}
+.pt.rv{opacity:1;transform:none}
+.pt .pi{clip-path:inset(100% 0 0 0);transition:clip-path 1.3s cubic-bezier(.75,0,.15,1)}
+.pt.in .pi{clip-path:inset(0)}
+.pt figcaption{opacity:0;transition:opacity .8s 1s}.pt.in figcaption{opacity:.75}
+.pt.rv.in .pi img{transform:scale(1)}
+.fm2{position:absolute;left:-14px;top:-14px;width:calc(100% + 28px);aspect-ratio:auto;height:auto;pointer-events:none;overflow:visible}
+.fm2 rect{fill:none;stroke:var(--navy);stroke-opacity:.35;stroke-width:.35;stroke-dasharray:1 1;stroke-dashoffset:1;transition:stroke-dashoffset 2s cubic-bezier(.6,0,.2,1) .9s}
+.pt.in .fm2 rect{stroke-dashoffset:0}
+.pt figcaption{margin-top:14px;font-family:var(--serif);font-style:italic;font-size:15px;letter-spacing:.02em;opacity:.75}
+.abt blockquote{margin-bottom:28px}
+@media(max-width:860px){.ab2{grid-template-columns:1fr}.pt{max-width:420px}.fm2{left:-8px;top:-8px;width:calc(100% + 16px)}}
+@media(prefers-reduced-motion:reduce){.pt .pi{clip-path:none!important}.pt figcaption{opacity:.75!important}.pt .pi img{transform:none!important;transition:none}.fm2 rect{stroke-dashoffset:0!important;transition:none}}
+.pw{position:relative}
+.pw .fm2{top:-14px;bottom:-14px;height:calc(100% + 28px)}
+@media(max-width:860px){.pw .fm2{top:-8px;height:calc(100% + 16px)}}
 </style></head>
 <body id="topo"><header class="hd"><div class="wrap"><a class="mk" href="/ageu-maia-site/v2/#topo" aria-label="Ageu Maia Arquitetura, início"><img src="/ageu-maia-site/v2/assets/logo-ageu-h.webp" srcset="/ageu-maia-site/v2/assets/logo-ageu-h.webp 480w, /ageu-maia-site/v2/assets/logo-ageu-h-2x.webp 960w" sizes="170px" width="480" height="121" alt="Ageu Maia Arquitetura"></a>
 <button class="mb" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
@@ -293,8 +313,8 @@ footer .fl{display:flex;align-items:center;gap:20px;flex-wrap:wrap}footer .fl im
 <div class="rv" style="--d:.12s"><h3>Incluso no orçamento</h3><ul class="bl"><li>Estudo técnico e direcionamento do projeto.</li><li>Caderno executivo digital.</li><li>Fabricação 4.0.</li><li>Transporte e instalação especializada.</li><li>Garantia estrutural e assistência pós-entrega.</li></ul></div>
 <div class="rv" style="--d:.24s"><h3>Materiais</h3><ul class="bl"><li>MDFs de 15 mm nas estruturas internas, 18 mm nos tamponamentos e 6 mm nos fundos, com revestimento dos dois lados para evitar mofo e mau cheiro.</li><li>MDF Ultra nas áreas molhadas.</li><li>Corrediças ocultas e dobradiças com amortecimento, para fechamento suave e menos ferragem aparente.</li><li>Pistões a gás e puxadores variados.</li></ul></div></div></div></section>
 
-<section id="sobre"><div class="wrap ab"><blockquote class="rv">Todo projeto começa com uma ideia. Transformamos essa ideia em espaço, valor e experiência.</blockquote>
-<div class="rv"><span class="k">Sobre o escritório</span><p>Fundado pelo arquiteto Ageu Maia em 2019, o escritório é reconhecido pela arquitetura de alto padrão e pelo compromisso com a satisfação dos clientes. Oferece soluções completas, unindo arquitetura, engenharia e gestão, com atendimento exclusivo e transparência.</p><p>Experiência em projetos residenciais e corporativos em empreendimentos como Nova York Penthouses (Brooklin), AESABESP (Paraíso) e Platinum Tower (Vila Olímpia). Com mais de 10 anos de experiência de mercado, tem cartela de fornecedores exclusiva e diversos projetos construídos.</p></div></div></section>
+<section id="sobre"><div class="wrap ab ab2"><figure class="pt rv"><div class="pw"><div class="pi"><picture><source type="image/avif" srcset="/ageu-maia-site/v2/assets/sobre-480.avif 480w, /ageu-maia-site/v2/assets/sobre-800.avif 800w, /ageu-maia-site/v2/assets/sobre-1052.avif 1052w" sizes="(min-width:861px) 38vw, 100vw"><source type="image/webp" srcset="/ageu-maia-site/v2/assets/sobre-480.webp 480w, /ageu-maia-site/v2/assets/sobre-800.webp 800w, /ageu-maia-site/v2/assets/sobre-1052.webp 1052w" sizes="(min-width:861px) 38vw, 100vw"><img src="/ageu-maia-site/v2/assets/sobre-1052.webp" width="1052" height="1316" alt="Arquiteto Ageu Maia em pé num apartamento vazio, vestindo preto" loading="lazy" decoding="async" class=""></picture></div><svg class="fm2" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><rect x=".5" y=".5" width="99" height="99" pathLength="1"/></svg></div><figcaption>Ageu Maia, arquiteto</figcaption></figure><div class="abt"><blockquote class="rv">Todo projeto começa com uma ideia. Transformamos essa ideia em espaço, valor e experiência.</blockquote>
+<div class="rv"><span class="k">Sobre o escritório</span><p>Fundado pelo arquiteto Ageu Maia em 2019, o escritório é reconhecido pela arquitetura de alto padrão e pelo compromisso com a satisfação dos clientes. Oferece soluções completas, unindo arquitetura, engenharia e gestão, com atendimento exclusivo e transparência.</p><p>Experiência em projetos residenciais e corporativos em empreendimentos como Nova York Penthouses (Brooklin), AESABESP (Paraíso) e Platinum Tower (Vila Olímpia). Com mais de 10 anos de experiência de mercado, tem cartela de fornecedores exclusiva e diversos projetos construídos.</p></div></div></div></section>
 
 <section id="contato" class="dk-s"><div class="wrap ct"><div><span class="k rv">Contato</span><h2 class="rv">Vamos conversar sobre o seu projeto.</h2><p class="sub rv">Conte o básico e abrimos a conversa no WhatsApp com a mensagem pronta. Você revisa antes de enviar.</p>
 <div class="ci rv"><a href="#" data-wa="Olá, Ageu! Vi seu site e gostaria de conversar sobre um projeto.">WhatsApp: (11) 98128-3318</a><a href="mailto:contato@ageumaiaarquitetura.com">contato@ageumaiaarquitetura.com</a><span>São Paulo, SP</span></div></div>

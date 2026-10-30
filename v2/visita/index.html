@@ -231,6 +231,26 @@ footer .fl{display:flex;align-items:center;gap:20px;flex-wrap:wrap}footer .fl im
 .js .rv.in li{opacity:1;transform:none}
 .js .rv.in li:nth-child(2){transition-delay:.06s}.js .rv.in li:nth-child(3){transition-delay:.12s}.js .rv.in li:nth-child(4){transition-delay:.18s}.js .rv.in li:nth-child(5){transition-delay:.24s}.js .rv.in li:nth-child(6){transition-delay:.3s}.js .rv.in li:nth-child(7){transition-delay:.36s}
 @media(max-width:1000px){.es{grid-template-columns:1fr}.mk img,footer .fl img{height:34px}}
+/* sobre com retrato 30/10: foto abre de baixo pra cima, moldura se desenha, leve parallax */
+.ab2{grid-template-columns:minmax(0,.85fr) minmax(0,1fr);align-items:center}
+.pt{position:relative;margin:0}
+.pt .pi{overflow:hidden;aspect-ratio:4/5;background:var(--navy2)}
+.pt .pi img{width:100%;height:100%;object-fit:cover;object-position:18% 50%;transform:scale(1.12);transition:transform 1.8s cubic-bezier(.2,.7,.2,1)}
+.pt.rv{opacity:1;transform:none}
+.pt .pi{clip-path:inset(100% 0 0 0);transition:clip-path 1.3s cubic-bezier(.75,0,.15,1)}
+.pt.in .pi{clip-path:inset(0)}
+.pt figcaption{opacity:0;transition:opacity .8s 1s}.pt.in figcaption{opacity:.75}
+.pt.rv.in .pi img{transform:scale(1)}
+.fm2{position:absolute;left:-14px;top:-14px;width:calc(100% + 28px);aspect-ratio:auto;height:auto;pointer-events:none;overflow:visible}
+.fm2 rect{fill:none;stroke:var(--navy);stroke-opacity:.35;stroke-width:.35;stroke-dasharray:1 1;stroke-dashoffset:1;transition:stroke-dashoffset 2s cubic-bezier(.6,0,.2,1) .9s}
+.pt.in .fm2 rect{stroke-dashoffset:0}
+.pt figcaption{margin-top:14px;font-family:var(--serif);font-style:italic;font-size:15px;letter-spacing:.02em;opacity:.75}
+.abt blockquote{margin-bottom:28px}
+@media(max-width:860px){.ab2{grid-template-columns:1fr}.pt{max-width:420px}.fm2{left:-8px;top:-8px;width:calc(100% + 16px)}}
+@media(prefers-reduced-motion:reduce){.pt .pi{clip-path:none!important}.pt figcaption{opacity:.75!important}.pt .pi img{transform:none!important;transition:none}.fm2 rect{stroke-dashoffset:0!important;transition:none}}
+.pw{position:relative}
+.pw .fm2{top:-14px;bottom:-14px;height:calc(100% + 28px)}
+@media(max-width:860px){.pw .fm2{top:-8px;height:calc(100% + 16px)}}
 </style></head>
 <body class="vs"><header class="hd"><div class="wrap"><a class="mk" href="/ageu-maia-site/v2/#topo" aria-label="Ageu Maia Arquitetura, início"><img src="/ageu-maia-site/v2/assets/logo-ageu-h.webp" srcset="/ageu-maia-site/v2/assets/logo-ageu-h.webp 480w, /ageu-maia-site/v2/assets/logo-ageu-h-2x.webp 960w" sizes="170px" width="480" height="121" alt="Ageu Maia Arquitetura"></a>
 <button class="mb" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
