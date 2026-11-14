@@ -278,6 +278,10 @@ footer .fl{display:flex;align-items:center;gap:20px;flex-wrap:wrap}footer .fl im
 @media(prefers-reduced-motion:reduce){.js .hb{animation:none!important}.hb img{animation:none!important}.hb .md{transform:none!important;translate:none!important}}
 
 @media(max-width:860px){.hero h1{font-size:clamp(25px,7.1vw,38px)}}
+/* 14/11: linha do tempo, bolinha por cima da linha e linha só entre a primeira e a última */
+.st::before,.st::after{top:14px}
+.st div::before{z-index:1}
+.st div:last-child::after{content:"";position:absolute;left:-41px;top:23px;bottom:-10px;width:11px;background:var(--navy);z-index:1}
 </style></head>
 <body id="topo"><header class="hd"><div class="wrap"><a class="mk" href="/ageu-maia-site/v2/#topo" aria-label="Ageu Maia Arquitetura, início"><img src="/ageu-maia-site/v2/assets/logo-ageu-h.webp" srcset="/ageu-maia-site/v2/assets/logo-ageu-h.webp 480w, /ageu-maia-site/v2/assets/logo-ageu-h-2x.webp 960w" sizes="170px" width="480" height="121" alt="Ageu Maia Arquitetura"></a>
 <button class="mb" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
