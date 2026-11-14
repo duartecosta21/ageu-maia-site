@@ -322,6 +322,10 @@ footer .fl{display:flex;align-items:center;gap:20px;flex-wrap:wrap}footer .fl im
 @media(max-width:860px){.hero h1 .ln{display:inline}.hero h1 .ln>span{display:inline}.hero h1 .ln+.ln::before{content:" "}}
 /* 14/11: H1 em 2 linhas em qualquer tela */
 @media(max-width:860px){.hero h1 .ln{display:block}.hero h1 .ln>span{display:block;white-space:nowrap}.hero h1 .ln+.ln::before{content:none}.hero h1{font-size:clamp(17px,5.05vw,34px)}}
+
+/* 14/11: sem o véu azul da esquerda no desktop; fica só o escurecido de baixo (texto) e de cima (menu) */
+@media(min-width:861px){.hb::after{background:linear-gradient(0deg,rgba(3,14,36,.6) 0%,rgba(3,14,36,0) 42%),linear-gradient(180deg,rgba(3,14,36,.45) 0%,rgba(3,14,36,0) 18%)}
+.hero h1,.hero p.lead{text-shadow:0 1px 18px rgba(3,14,36,.45)}}
 </style></head>
 <body id="topo"><header class="hd"><div class="wrap"><a class="mk" href="/ageu-maia-site/v2/#topo" aria-label="Ageu Maia Arquitetura, início"><img src="/ageu-maia-site/v2/assets/logo-ageu-h.webp" srcset="/ageu-maia-site/v2/assets/logo-ageu-h.webp 480w, /ageu-maia-site/v2/assets/logo-ageu-h-2x.webp 960w" sizes="170px" width="480" height="121" alt="Ageu Maia Arquitetura"></a>
 <button class="mb" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
