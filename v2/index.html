@@ -315,12 +315,17 @@ footer .fl{display:flex;align-items:center;gap:20px;flex-wrap:wrap}footer .fl im
 @media(max-width:860px){.hero h1{font-size:clamp(22px,6.2vw,34px)}}
 /* 14/11: bolinha da linha do tempo centrada (pseudo-elemento não herda o box-sizing do *) */
 .st div::before{box-sizing:border-box;width:13px;height:13px;left:-42px;top:8px}
+/* 14/11: H1 em 2 linhas no computador */
+.hero .tx{width:min(100%,900px)}
+@media(max-width:860px){.hero h1 .ln>span{white-space:normal}}
+/* 14/11: no celular a H1 corre solta, sem quebra forçada */
+@media(max-width:860px){.hero h1 .ln{display:inline}.hero h1 .ln>span{display:inline}.hero h1 .ln+.ln::before{content:" "}}
 </style></head>
 <body id="topo"><header class="hd"><div class="wrap"><a class="mk" href="/ageu-maia-site/v2/#topo" aria-label="Ageu Maia Arquitetura, início"><img src="/ageu-maia-site/v2/assets/logo-ageu-h.webp" srcset="/ageu-maia-site/v2/assets/logo-ageu-h.webp 480w, /ageu-maia-site/v2/assets/logo-ageu-h-2x.webp 960w" sizes="170px" width="480" height="121" alt="Ageu Maia Arquitetura"></a>
 <button class="mb" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
 <nav class="nv" aria-label="Principal"><a href="/ageu-maia-site/v2/#projetos">Projetos</a><a href="/ageu-maia-site/v2/#bairros">Bairros</a><a href="/ageu-maia-site/v2/#servicos">Serviços</a><a href="/ageu-maia-site/v2/#processo">Como começa</a><a href="/ageu-maia-site/v2/#sobre">Sobre</a><a class="btn line" href="#" data-wa="Olá, Ageu! Vi seu site e gostaria de conversar sobre um projeto.">WhatsApp</a></nav></div></header>
 <main><section class="hero" style="padding:0"><div class="hb"><div class="md"><div class="sl on" style="--fd:50% 66%;--fm:50% 55%"><picture><source type="image/avif" srcset="/ageu-maia-site/v2/assets/hs0-600.avif 600w, /ageu-maia-site/v2/assets/hs0-900.avif 900w, /ageu-maia-site/v2/assets/hs0-1300.avif 1300w, /ageu-maia-site/v2/assets/hs0-1800.avif 1800w, /ageu-maia-site/v2/assets/hs0-2400.avif 2400w, /ageu-maia-site/v2/assets/hs0-3000.avif 3000w" sizes="(max-width:860px) 115vw, 115vw"><img src="/ageu-maia-site/v2/assets/hs0-2400.webp" srcset="/ageu-maia-site/v2/assets/hs0-600.webp 600w, /ageu-maia-site/v2/assets/hs0-900.webp 900w, /ageu-maia-site/v2/assets/hs0-1300.webp 1300w, /ageu-maia-site/v2/assets/hs0-1800.webp 1800w, /ageu-maia-site/v2/assets/hs0-2400.webp 2400w, /ageu-maia-site/v2/assets/hs0-3000.webp 3000w" sizes="(max-width:860px) 115vw, 115vw" width="3000" height="4000" alt="Sala de estar de apartamento com sofá claro, mesa de jantar e vista da cidade" fetchpriority="high"></picture></div><div class="sl" style="--fd:50% 62%;--fm:50% 50%" aria-hidden="true"><img data-srcset="/ageu-maia-site/v2/assets/hs1-600.webp 600w, /ageu-maia-site/v2/assets/hs1-900.webp 900w, /ageu-maia-site/v2/assets/hs1-1300.webp 1300w, /ageu-maia-site/v2/assets/hs1-1800.webp 1800w, /ageu-maia-site/v2/assets/hs1-2400.webp 2400w, /ageu-maia-site/v2/assets/hs1-3000.webp 3000w" data-sizes="(max-width:860px) 115vw, 115vw" width="3000" height="4000" alt=""></div><div class="sl" style="--fd:50% 58%;--fm:52% 50%" aria-hidden="true"><img data-srcset="/ageu-maia-site/v2/assets/hs2-800.webp 800w, /ageu-maia-site/v2/assets/hs2-1200.webp 1200w, /ageu-maia-site/v2/assets/hs2-1600.webp 1600w, /ageu-maia-site/v2/assets/hs2-2400.webp 2400w, /ageu-maia-site/v2/assets/hs2-3200.webp 3200w" data-sizes="(max-width:860px) 170vw, 115vw" width="3200" height="2400" alt=""></div><div class="sl" style="--fd:50% 58%;--fm:46% 50%" aria-hidden="true"><img data-srcset="/ageu-maia-site/v2/assets/hs3-800.webp 800w, /ageu-maia-site/v2/assets/hs3-1200.webp 1200w, /ageu-maia-site/v2/assets/hs3-1600.webp 1600w, /ageu-maia-site/v2/assets/hs3-2400.webp 2400w, /ageu-maia-site/v2/assets/hs3-3200.webp 3200w" data-sizes="(max-width:860px) 170vw, 115vw" width="3200" height="2400" alt=""></div><div class="sl" style="--fd:50% 55%;--fm:50% 50%" aria-hidden="true"><img data-srcset="/ageu-maia-site/v2/assets/hs4-800.webp 800w, /ageu-maia-site/v2/assets/hs4-1200.webp 1200w, /ageu-maia-site/v2/assets/hs4-1600.webp 1600w, /ageu-maia-site/v2/assets/hs4-2400.webp 2400w, /ageu-maia-site/v2/assets/hs4-3200.webp 3200w" data-sizes="(max-width:860px) 170vw, 115vw" width="3200" height="2400" alt=""></div><div class="sl" style="--fd:50% 55%;--fm:40% 50%" aria-hidden="true"><img data-srcset="/ageu-maia-site/v2/assets/hs5-800.webp 800w, /ageu-maia-site/v2/assets/hs5-1200.webp 1200w, /ageu-maia-site/v2/assets/hs5-1600.webp 1600w, /ageu-maia-site/v2/assets/hs5-2400.webp 2400w, /ageu-maia-site/v2/assets/hs5-3200.webp 3200w" data-sizes="(max-width:860px) 170vw, 115vw" width="3200" height="2400" alt=""></div></div></div><div class="wrap"><div class="tx">
-<h1 aria-label="Arquitetura de alto padrão em Moema, Brooklin e Vila Nova Conceição."><span class="ln" aria-hidden="true"><span style="--d:.5s">Arquitetura de alto padrão</span></span><span class="ln" aria-hidden="true"><span style="--d:.62s">em Moema, Brooklin</span></span><span class="ln" aria-hidden="true"><span style="--d:.74s">e Vila Nova Conceição.</span></span></h1>
+<h1 aria-label="Arquitetura de alto padrão em Moema, Brooklin e Vila Nova Conceição."><span class="ln" aria-hidden="true"><span style="--d:.5s">Arquitetura de alto padrão em Moema,</span></span><span class="ln" aria-hidden="true"><span style="--d:.64s">Brooklin e Vila Nova Conceição.</span></span></h1>
 <p class="lead hf">Projeto e gerenciamento de obra para apartamentos em São Paulo, conduzidos por um só escritório.</p>
 <div class="cta hf"><a class="tl" href="#" data-wa="Olá, Ageu! Vi seu site e gostaria de conversar sobre um projeto.">Conversar no WhatsApp <span class="ar"><svg viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></a></div></div></div></section>
 
@@ -338,31 +343,6 @@ footer .fl{display:flex;align-items:center;gap:20px;flex-wrap:wrap}footer .fl im
 <div class="rv" style="--d:.12s"><h3>Gerenciamento de obra</h3><p>Supervisão da execução, do planejamento inicial à entrega final, com relatórios periódicos e conferência das medidas antes da liberação dos pagamentos.</p></div>
 <div class="rv" style="--d:.24s"><h3>Marcenaria sob medida</h3><p>O braço de marcenaria do escritório integra projeto e execução, do estudo técnico à instalação e à assistência pós-entrega.</p></div></div>
 <p class="extra rv">Também atendemos escritórios e espaços comerciais, e projetamos studios para investimento e locação por temporada.</p></div></section>
-
-<section id="escopo"><div class="wrap"><span class="k rv">Escopo</span><h2 class="rv">Cada proposta diz o que está dentro e o que está fora.</h2>
-<div class="es"><div class="rv"><h3>Entregas do projeto</h3><ul class="dl">
-<li><b>Levantamento e estudo preliminar</b>Medição do imóvel, estudo de layout inicial, conceito estético e referências visuais.</li>
-<li><b>Anteprojeto</b>Planta de layout aprovado, definição de acabamentos e paleta de cores, imagens 3D ilustrativas.</li>
-<li><b>Projeto executivo</b>Layout com mobiliário e circulações cotadas, marcenaria, forro e iluminação, elétrica e automação, hidráulica e revestimentos.</li>
-<li><b>Detalhes construtivos</b>Cortes e detalhamentos específicos para execução.</li>
-<li><b>Memorial descritivo</b>Lista completa de materiais, revestimentos, metais, louças e iluminação.</li>
-<li><b>Planilha de mobiliário e decoração</b>Móveis soltos, objetos e eletrodomésticos sugeridos.</li>
-<li><b>Documentos finais</b>Caderno de projeto em PDF, arquivos DWG e cronograma físico-financeiro preliminar.</li></ul></div>
-<div class="rv" style="--d:.12s"><h3>Gerenciamento da obra</h3><ul class="bl">
-<li>Supervisão integral da execução, do planejamento inicial à entrega final.</li>
-<li>Monitoramento diário das atividades no local, para qualidade, prazos e conformidade com o projeto.</li>
-<li>Coordenação das equipes e fornecedores: mão de obra, marcenaria, vidraçaria, instalações e outros.</li>
-<li>Suporte na compra de materiais e verificação das entregas recebidas.</li>
-<li>Relatórios periódicos de progresso, com registro fotográfico e pendências.</li>
-<li>Confirmação das medidas e serviços realizados antes da liberação dos pagamentos.</li></ul></div>
-<div class="rv" style="--d:.24s"><h3>Não está incluso</h3><ul class="bl no">
-<li>Transporte, armazenamento e descarte de entulho (caçambas, fretes, carreto).</li>
-<li>Engenharia especializada (estrutural, elétrica, hidráulica, gás, climatização), quando houver necessidade de projeto ou laudo específico.</li>
-<li>Taxas, licenças e aprovações na Prefeitura ou em órgãos competentes.</li>
-<li>Acompanhamento fora do expediente padrão: madrugada, fins de semana e feriados.</li>
-<li>Móveis soltos, eletrodomésticos, decoração e objetos pessoais.</li>
-<li>Alterações de escopo pedidas após a aprovação inicial, orçadas à parte.</li>
-<li>Limpeza final da obra.</li></ul></div></div></div></section>
 
 <section id="processo" class="dk-s"><div class="wrap pr"><div><span class="k rv">Como começa</span><h2 class="rv">Uma conversa e uma proposta clara.</h2><p class="sub rv">Proposta com escopo claro desde o início, para que não haja expectativa solta.</p></div>
 <div class="st"><div class="rv"><h3>Conversa inicial</h3><p>Você conta sobre o imóvel, o bairro e o que espera do projeto.</p></div>

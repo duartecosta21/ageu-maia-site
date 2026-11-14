@@ -315,6 +315,11 @@ footer .fl{display:flex;align-items:center;gap:20px;flex-wrap:wrap}footer .fl im
 @media(max-width:860px){.hero h1{font-size:clamp(22px,6.2vw,34px)}}
 /* 14/11: bolinha da linha do tempo centrada (pseudo-elemento não herda o box-sizing do *) */
 .st div::before{box-sizing:border-box;width:13px;height:13px;left:-42px;top:8px}
+/* 14/11: H1 em 2 linhas no computador */
+.hero .tx{width:min(100%,900px)}
+@media(max-width:860px){.hero h1 .ln>span{white-space:normal}}
+/* 14/11: no celular a H1 corre solta, sem quebra forçada */
+@media(max-width:860px){.hero h1 .ln{display:inline}.hero h1 .ln>span{display:inline}.hero h1 .ln+.ln::before{content:" "}}
 </style></head>
 <body class="vs"><header class="hd"><div class="wrap"><a class="mk" href="/ageu-maia-site/v2/#topo" aria-label="Ageu Maia Arquitetura, início"><img src="/ageu-maia-site/v2/assets/logo-ageu-h.webp" srcset="/ageu-maia-site/v2/assets/logo-ageu-h.webp 480w, /ageu-maia-site/v2/assets/logo-ageu-h-2x.webp 960w" sizes="170px" width="480" height="121" alt="Ageu Maia Arquitetura"></a>
 <button class="mb" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
